@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "swift-http-types",
     products: [
-        .library(name: "HTTPTypes", targets: ["HTTPTypes"]),
-        .library(name: "HTTPTypesFoundation", targets: ["HTTPTypesFoundation"]),
+        .library(name: "HTTPTypes",type: .dynamic, targets: ["HTTPTypes"]),
+        .library(name: "HTTPTypesFoundation",type: .dynamic, targets: ["HTTPTypesFoundation"]),
     ],
     targets: [
         .target(name: "HTTPTypes"),
