@@ -16,7 +16,7 @@ let package = Package(
             name: "Benchmarks",
             dependencies: [
                 .product(name: "Benchmark", package: "package-benchmark"),
-                .product(name: "HTTPTypes", package: "swift-http-types"),
+                .product(name: "HTTPTypes", package: "SwiftHttpTypes"),
             ],
             path: "Benchmarks/HTTPFieldsBenchmarks",
             plugins: [
