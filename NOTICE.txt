@@ -4,7 +4,7 @@
 
 Please visit the Swift HTTP Types web site for more information:
 
-  * https://github.com/apple/swift-http-types
+  * https://github.com/apple/SwiftHttpTypes
 
 Copyright 2023 The Swift HTTP Types Project
 
