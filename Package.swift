@@ -5,21 +5,21 @@ import PackageDescription
 let package = Package(
     name: "SwiftHttpTypes",
     products: [
-        .library(name: "SwiftHttpTypes",type: .dynamic, targets: ["HTTPTypes"]),
+        .library(name: "SwiftHttpTypes",type: .dynamic, targets: ["SwiftHttpTypes"]),
         .library(name: "HTTPTypesFoundation",type: .dynamic, targets: ["HTTPTypesFoundation"]),
     ],
     targets: [
-        .target(name: "HTTPTypes"),
+        .target(name: "SwiftHttpTypes"),
         .target(
             name: "HTTPTypesFoundation",
             dependencies: [
-                "HTTPTypes"
+                "SwiftHttpTypes"
             ]
         ),
         .testTarget(
             name: "HTTPTypesTests",
             dependencies: [
-                "HTTPTypes"
+                "SwiftHttpTypes"
             ]
         ),
         .testTarget(

@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
+import SwiftHttpTypes
 
 extension String {
     var isASCII: Bool {

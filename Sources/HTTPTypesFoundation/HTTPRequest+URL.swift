@@ -13,7 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 import Foundation
-import HTTPTypes
+import SwiftHttpTypes
 
 #if canImport(CoreFoundation)
 import CoreFoundation
