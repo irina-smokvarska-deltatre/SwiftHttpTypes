@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "SwiftHttpTypes",
     products: [
-        .library(name: "SwiftHttpTypes",type: .dynamic, targets: ["SwiftHttpTypes"]),
-        .library(name: "HTTPTypesFoundation",type: .dynamic, targets: ["HTTPTypesFoundation"]),
+        .library(name: "SwiftHttpTypes", targets: ["SwiftHttpTypes"]),
+        .library(name: "HTTPTypesFoundation", targets: ["HTTPTypesFoundation"]),
     ],
     targets: [
         .target(name: "SwiftHttpTypes"),
